@@ -23,7 +23,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task2.V4
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x;
+            int x; 
 
             Console.WriteLine("Введите сторону квадрата: ");
             x = Convert.ToInt32(Console.ReadLine());
