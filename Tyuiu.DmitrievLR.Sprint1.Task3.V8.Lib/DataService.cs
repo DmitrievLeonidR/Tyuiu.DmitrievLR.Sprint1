@@ -8,7 +8,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task3.V8.Lib
         {
 
             double dailyRate = percent / 100 / 365;
-            double totalIncomeAmount = Math.Round((startAmount * dailyRate * timeDays), 2);
+            double totalIncomeAmount = Math.Round((startAmount * dailyRate * timeDays), 3);
             
         
             return totalIncomeAmount;  

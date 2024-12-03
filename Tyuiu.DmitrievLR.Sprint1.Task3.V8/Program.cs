@@ -45,7 +45,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task3.V8
             var result = ds.IncomeAmount(startAmount1, percent1, timeDays1);
             Console.Write("Доход по вкладу: ");
             Console.WriteLine(result + " руб.");
-            Console.WriteLine("Сумма дохода по вкладу: " + (Math.Round(startAmount1 +result, 2)) +" руб.");
+            Console.WriteLine("Сумма дохода по вкладу: " + (Math.Round(startAmount1 +result, 3)) +" руб.");
             Console.ReadKey();
         }
     }
