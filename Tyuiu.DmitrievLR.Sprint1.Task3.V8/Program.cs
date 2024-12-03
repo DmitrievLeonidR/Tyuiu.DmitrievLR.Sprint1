@@ -28,7 +28,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task3.V8
 
             Console.WriteLine("Введите Процентную ставкe (% - годовых) в процентах :");
             double percent1 = Convert.ToDouble(Console.ReadLine());
-
+             
             Console.WriteLine("Введите время хранения (в днях): ");
             double timeDays1 = Convert.ToDouble(Console.ReadLine());
 

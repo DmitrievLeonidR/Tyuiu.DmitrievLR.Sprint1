@@ -11,7 +11,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task3.V8.Lib
             double totalIncomeAmount = Math.Round((startAmount * dailyRate * timeDays), 2);
             
         
-            return totalIncomeAmount; 
+            return totalIncomeAmount;  
         }
     }
 }
