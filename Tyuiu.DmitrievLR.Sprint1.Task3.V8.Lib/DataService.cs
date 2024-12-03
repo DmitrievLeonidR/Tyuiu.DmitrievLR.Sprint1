@@ -11,7 +11,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task3.V8.Lib
             double totalIncomeAmount = startAmount * dailyRate * timeDays;
             
 
-            return totalIncomeAmount;
+            return totalIncomeAmount; 
         }
     }
 }

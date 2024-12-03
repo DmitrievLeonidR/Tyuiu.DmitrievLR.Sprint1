@@ -39,7 +39,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task3.V8
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
+             
             DataService ds = new DataService();
 
             var result = ds.IncomeAmount(startAmount1, percent1, timeDays1);
