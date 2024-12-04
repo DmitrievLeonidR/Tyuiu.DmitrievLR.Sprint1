@@ -24,7 +24,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task7.V10
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine(" Введите значение x: ");
-            double x = Convert.ToDouble(Console.ReadLine());
+            double x = Convert.ToDouble(Console.ReadLine()); 
 
 
             Console.WriteLine("***************************************************************************");
