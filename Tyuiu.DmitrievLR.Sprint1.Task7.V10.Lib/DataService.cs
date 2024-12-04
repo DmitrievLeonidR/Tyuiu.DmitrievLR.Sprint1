@@ -9,7 +9,7 @@ namespace Tyuiu.DmitrievLR.Sprint1.Task7.V10.Lib
 
             double z = (2* (1/Math.Tan(3*x) ) - ( (Math.Log( Math.Cos(x) ) ) / (Math.Log(1+ Math.Pow(x,2) ) ) ) );
 
-            double result = Math.Round(result, 3);
+            double result = Math.Round(z, 3);
             return result;
         }
     }
